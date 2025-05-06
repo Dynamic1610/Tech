@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Gadgets Store</title>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Tech Gadgets</div>
+      <ul>
+        <li><a href="#phones">Phones</a></li>
+        <li><a href="#headphones">Headphones</a></li>
+        <li><a href="#earpods">Earpods</a></li>
+        <li><a href="#bluetooth">Bluetooth</a></li>
+        <li><a href="#contact">Contact Us</a></li> <!-- Added Contact Us link -->
+      </ul>
+      <div class="cart">
+        <i class="fas fa-shopping-cart"></i>
+        <span id="cart-count">0</span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Product Categories -->
+  <section class="product-categories">
+    <h2>Explore Our Categories</h2>
+    <div class="categories">
+      <div class="category-box">
+        <i class="fas fa-mobile-alt"></i>
+        <h3>Phones</h3>
+      </div>
+      <div class="category-box">
+        <i class="fas fa-headphones"></i>
+        <h3>Headphones</h3>
+      </div>
+      <div class="category-box">
+        <i class="fas fa-headphones-alt"></i>
+        <h3>Earpods</h3>
+      </div>
+      <div class="category-box">
+        <i class="fas fa-bluetooth"></i>
+        <h3>Bluetooth</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Display Section -->
+  <section class="product-display">
+    <h2>Featured Products</h2>
+    <div id="product-list" class="product-list"></div>
+  </section>
+
+  <!-- Connect Us Section -->
+  <section class="connect-form" id="connect">
+    <h2>Connect With Us</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-details">
+      <p>&copy; 2025 Tech Gadgets Store. All rights reserved.</p>
+      <p><strong>Address:</strong> 123 Tech Lane, Silicon Valley, CA, USA</p>
+      <p><strong>Email:</strong> support@techgadgets.com</p>
+      <p><strong>Phone:</strong> +1 800 123 4567</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
